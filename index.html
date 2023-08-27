@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="title">
+        <h2>Find the Country on the flag</h2>
+    </div>    
+
+    <div class="container">
+
+        <div class="score">
+            <h3>Score: </h3>
+        </div>
+
+        <div class="question">
+            <h3>Which Country's flag is it?</h3>
+        </div>
+
+        <div class="flag">
+            <img src="flag/flag-holder.png" alt="" class="img">
+        </div>
+
+        <button class="play-btn">Let's Play</button>
+        
+        <div class="result">
+            <img src="" onerror="this.style.display='none'" id="resultImg">
+            <p></p>
+        </div>
+
+        <div class="answer">
+            <form class="input-form">
+                <input type="text" placeholder=" Enter your answer" id="input-bar" autocomplete="off">
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
